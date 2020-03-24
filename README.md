@@ -1,4 +1,4 @@
-# COVID-19-Statistics-Brazil
+# COVID-19 - Statistics Brazil
 Statistical data about COVID-19 cases in Brazil.
 
 Data source: https://labs.wesleycota.com/sarscov2/br/
