@@ -6,3 +6,6 @@ Data source: https://labs.wesleycota.com/sarscov2/br/
 This repository aggregates data about COVID-19 in Brazil from the Brazilian Ministry of Health and Brazilan Health State Offices.
 
 I intend to update this dataset daily.
+
+
+
