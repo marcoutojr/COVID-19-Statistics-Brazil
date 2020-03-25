@@ -2,9 +2,7 @@
 
 Statistical data about COVID-19 cases in Brazil.
 
-Data source: https://labs.wesleycota.com/sarscov2/br/.
-
-This repository aggregates data about COVID-19 in Brazil from the Brazilian Ministry of Health and Brazilan Health State Offices.
+This repository aggregates data about COVID-19 in Brazil from the Brazilian Ministry of Health and Brazilan Health State Offices, retrieved from https://labs.wesleycota.com/sarscov2/br/.
 
 The general scenario until 24/03/2020 is presented below. I also have included comparisons between some states and the detail in SP State, the epicenter of the pandemic in Brazil.
 
