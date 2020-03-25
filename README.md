@@ -5,8 +5,9 @@ Data source: https://labs.wesleycota.com/sarscov2/br/
 
 This repository aggregates data about COVID-19 in Brazil from the Brazilian Ministry of Health and Brazilan Health State Offices.
 
-I intend to update this dataset daily.
+The general scenario until 24/03/2020 is presented below. I have included comparisons between some states, was well and the detail in SP State, the epicenter of the pandemic in Brazil.
 
+I intend to make daily updates in this dataset, whenever possible.
 
 ## Last update: 24/03/2020
 
@@ -24,3 +25,18 @@ I intend to update this dataset daily.
 
 ## COVID-19 cases compared between SP and DF
 ![COVID-19 cases compared between SP and DF](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/24_03_2020/COVID19_cases_compared_between_SP_and_DF.png)
+
+## COVID-19 cases compared between SP and SC
+![COVID-19 cases compared between SP and SC](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/24_03_2020/COVID19_cases_compared_between_SP_and_SC.png)
+
+## COVID-19 cases compared between SP and PR
+![COVID-19 cases compared between SP and PR](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/24_03_2020/COVID19_cases_compared_between_SP_and_PR.png)
+
+## COVID-19 cases compared between SP and RS
+![COVID-19 cases compared between SP and RS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/24_03_2020/COVID19_cases_compared_between_SP_and_RS.png)
+
+## COVID-19 cases compared between SP and BA
+![COVID-19 cases compared between SP and RS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/24_03_2020/COVID19_cases_compared_between_SP_and_BA.png)
+
+## COVID-19 cases compared between SP and PE
+![COVID-19 cases compared between SP and PE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/24_03_2020/COVID19_cases_compared_between_SP_and_PE.png)
