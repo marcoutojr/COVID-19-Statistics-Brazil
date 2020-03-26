@@ -34,7 +34,7 @@ However, you can find all figures from the previous days in the folder ```Figure
 
 ## Comparisons in Southeast Region
 ### COVID-19 cases compared between SP and ES
-![COVID-19 cases compared between SP and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/For_each_state/COVID19_cases_compared_between_SP_and_ES.png)
+![COVID-19 cases compared between SP and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_ES.png)
 
 ### COVID-19 cases compared between SP and MG
 ![COVID-19 cases compared between SP and MG](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_MG.png)
