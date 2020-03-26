@@ -9,7 +9,7 @@ The general scenario until 25/03/2020 is presented below. I also have included c
 I intend to make daily updates in this dataset, whenever possible.
 
 ## Last update: 25/03/2020
-However, you can find all figures from the previous days in the folder ```Figures```. There, you will find all the plots for each state and all states comparisons with SP. If you have any interest in Python coding, please, take a look in the file ```COVID_19_Analysis.ipynb``` :).
+However, you can find all figures from the previous days in the folder ```Figures```. There, you will find all the plots for each state and all states comparisons with SP. If you have any interest in Python coding, please, take a look in the file ```COVID_19_Analysis.ipynb```. Any suggestions are very welcome :D.
 
 ## Total COVID-19 cases per state in Brazil
 ![Total COVID-19 cases per state in Brazil](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Total_COVID19_cases_per_state_in_Brazil.png)
