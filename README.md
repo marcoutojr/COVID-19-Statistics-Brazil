@@ -6,12 +6,12 @@ This repository aggregates data about COVID-19 in Brazil from the Brazilian Mini
 
 If you have any interest in Python coding and help in this project, please, take a look in the file ```COVID_19_Analysis.ipynb```. Any suggestions are very welcome! You can e-mail me as well: marco.couto@usp.br.
 
-The general scenario until 25/03/2020 is presented below. I also have included comparisons between the Brazilian states and the detail in SP State, the epicenter of the pandemic in Brazil. The series for each state start on the day of the first COVID-19 case confirmation in that state.
+The general scenario until 25/03/2020 is presented below. I also have included comparisons between SP, RJ, MG and DF with Brazil, the Brazilian states with SP and the detail in SP State, the epicenter of the pandemic in Brazil. The series for each state starts on the day of the first COVID-19 case confirmation in that state.
 
 I intend to make daily updates in this dataset, whenever possible.
 
 ## Last update: 25/03/2020
-However, you can find all figures from the previous days in the folder ```Figures```. There, you will find all the plots for each state and all states comparisons with SP.
+However, you can find all figures from the previous days in the folder ```Figures```. There, you will find all the plots for each state and all states comparisons with SP and Brazil.
 
 ## Total COVID-19 cases per state in Brazil
 ![Total COVID-19 cases per state in Brazil](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Total_COVID19_cases_per_state_in_Brazil.png)
@@ -19,9 +19,22 @@ However, you can find all figures from the previous days in the folder ```Figure
 ## COVID-19 cases in São Paulo State
 ![COVID-19 cases in São Paulo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/For_each_state/COVID19_cases_per_in_SP.png)
 
+## Comparisons between states and Brazil
+### COVID-19 cases compared between DF and Brazil
+![COVID-19 cases compared between BR and DF](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_DF.png)
+
+### COVID-19 cases compared between MG and Brazil
+![COVID-19 cases compared between BR and MG](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_MG.png)
+
+### COVID-19 cases compared between SP and Brazil
+![COVID-19 cases compared between BR and SP](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_SP.png)
+
+### COVID-19 cases compared between RJ and Brazil
+![COVID-19 cases compared between BR and RJ](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_RJ.png)
+
 ## Comparisons in Southeast Region
 ### COVID-19 cases compared between SP and ES
-![COVID-19 cases compared between SP and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_ES.png)
+![COVID-19 cases compared between SP and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/For_each_state/COVID19_cases_compared_between_SP_and_ES.png)
 
 ### COVID-19 cases compared between SP and MG
 ![COVID-19 cases compared between SP and MG](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_MG.png)
