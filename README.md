@@ -9,7 +9,6 @@ The general scenario until 25/03/2020 is presented below. I also have included c
 I intend to make daily updates in this dataset, whenever possible.
 
 ## Last update: 25/03/2020
-
 However, you can find all figures from the previous days in the folder ```Figures```. There, you will find all the plots for each state and all states comparisons with SP. If you have any interest in Python coding, please, take a look in the file ```COVID_19_Analysis.ipynb``` :).
 
 ## Total COVID-19 cases per state in Brazil
@@ -19,7 +18,6 @@ However, you can find all figures from the previous days in the folder ```Figure
 ![COVID-19 cases in São Paulo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/For_each_state/COVID19_cases_per_in_SP.png)
 
 ## Comparisons in Southeast Region
-
 ### COVID-19 cases compared between SP and ES
 ![COVID-19 cases compared between SP and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_ES.png)
 
