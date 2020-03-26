@@ -29,7 +29,7 @@ However, you can find all figures from the previous days in the folder ```Figure
 ### COVID-19 cases compared between SP and RJ
 ![COVID-19 cases compared between SP and RJ](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RJ.png)
 
-## Comparisons in Central
+## Comparisons in Central Region
 
 ### COVID-19 cases compared between SP and DF
 ![COVID-19 cases compared between SP and DF](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/25_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_DF.png)
