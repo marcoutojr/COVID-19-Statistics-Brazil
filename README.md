@@ -6,7 +6,7 @@ This repository aggregates data about COVID-19 in Brazil from the Brazilian Mini
 
 If you have any interest in Python coding and help in this project, please, take a look in the file ```COVID_19_Analysis.ipynb```. Any suggestions are very welcome! You can e-mail me as well: marco.couto@usp.br.
 
-The general scenario until 25/03/2020 is presented below. I also have included comparisons between SP, RJ, MG and DF with Brazil, the Brazilian states with SP and the detail in SP State, the epicenter of the pandemic in Brazil. The series for each state starts on the day of the first COVID-19 case confirmation in that state.
+The general scenario until 26/03/2020 is presented below. I also have included comparisons between SP, RJ, MG and DF with Brazil, the Brazilian states with SP and the detail in SP State, the epicenter of the pandemic in Brazil. The series for each state starts on the day of the first COVID-19 case confirmation in that state.
 
 I intend to make daily updates in this dataset, whenever possible.
 
