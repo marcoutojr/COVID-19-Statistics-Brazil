@@ -66,180 +66,177 @@ No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figu
 ![COVID-19 cases in Pará State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/For_each_state/COVID19_cases_per_in_PA.png)
 
 
-## Comparisons between states/SP and states/Brazil
+## Comparações entres os estados com o Brasil e com o Estado de São Paulo
 
-### Comparisons in Southeast Region
+### Região Sudeste
 
-#### COVID-19 cases compared between ES and Brazil
+#### Casos de COVID-19 comparados entre ES e o Brasil
 ![COVID-19 cases compared between BR and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_ES.png)
 
-#### COVID-19 cases compared between SP and ES
+#### Casos de COVID-19 comparados entre SP e ES
 ![COVID-19 cases compared between SP and ES](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_ES.png)
 
-#### COVID-19 cases compared between MG and Brazil
+#### C
 ![COVID-19 cases compared between BR and MG](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_MG.png)
 
-#### COVID-19 cases compared between SP and MG
+#### Casos de COVID-19 comparados entre SP e MG
 ![COVID-19 cases compared between SP and MG](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_MG.png)
 
-#### COVID-19 cases compared between RJ and Brazil
+#### Casos de COVID-19 comparados entre RJ e o Brasil
 ![COVID-19 cases compared between BR and RJ](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_RJ.png)
 
-#### COVID-19 cases compared between SP and RJ
+#### Casos de COVID-19 comparados entre SP e RJ
 ![COVID-19 cases compared between SP and RJ](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RJ.png)
 
 #### COVID-19 cases compared between SP and Brazil
 ![COVID-19 cases compared between BR and SP](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_SP.png)
 
 
+### Região Sul
 
-
-### Comparisons in South Region
-
-#### COVID-19 cases compared between PR and Brazil
+#### Casos de COVID-19 comparados entre PR e o Brasil
 ![COVID-19 cases compared between BR and PR](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_PR.png)
 
-#### COVID-19 cases compared between SP and PR
+#### Casos de COVID-19 comparados entre SP e PR
 ![COVID-19 cases compared between SP and PR](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_PR.png)
 
-#### COVID-19 cases compared between RS and Brazil
+#### Casos de COVID-19 comparados entre RS e o Brasil
 ![COVID-19 cases compared between BR and RS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_RS.png)
 
-#### COVID-19 cases compared between SP and RS
+#### Casos de COVID-19 comparados entre SP e RS
 ![COVID-19 cases compared between SP and RS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RS.png)
 
-#### COVID-19 cases compared between SC and Brazil
+#### Casos de COVID-19 comparados entre SC e o Brasil
 ![COVID-19 cases compared between BR and SC](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_SC.png)
 
-#### COVID-19 cases compared between SP and SC
+#### Casos de COVID-19 comparados entre SP e SC
 ![COVID-19 cases compared between SP and SC](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_SC.png)
 
 
-### Comparisons in Central Region
+### Região Centro-Oeste
 
-#### COVID-19 cases compared between DF and Brazil
+#### Casos de COVID-19 comparados entre DF e o Brasil
 ![COVID-19 cases compared between BR and DF](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_DF.png)
 
-#### COVID-19 cases compared between SP and DF
+#### Casos de COVID-19 comparados entre DF e SP
 ![COVID-19 cases compared between SP and DF](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_DF.png)
 
-#### COVID-19 cases compared between GO and Brazil
+#### Casos de COVID-19 comparados entre GO e o Brasil
 ![COVID-19 cases compared between BR and GO](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_GO.png)
 
-#### COVID-19 cases compared between SP and GO
+#### Casos de COVID-19 comparados entre GO e SP
 ![COVID-19 cases compared between SP and GO](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_GO.png)
 
-#### COVID-19 cases compared between MS and Brazil
+#### Casos de COVID-19 comparados entre MS e o Brasil
 ![COVID-19 cases compared between BR and MS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_MS.png)
 
-#### COVID-19 cases compared between SP and MS
+#### Casos de COVID-19 comparados entre MS e SP
 ![COVID-19 cases compared between SP and MS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_MS.png)
 
-#### COVID-19 cases compared between MT and Brazil
+#### Casos de COVID-19 comparados entre MT e o Brasil
 ![COVID-19 cases compared between BR and MT](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_MT.png)
 
-#### COVID-19 cases compared between SP and MT
+#### Casos de COVID-19 comparados entre MT e SP
 ![COVID-19 cases compared between SP and MT](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_MT.png)
 
 
-### Comparisons in Northeast Region
+### Região Nordeste
 
-#### COVID-19 cases compared between AL and Brazil
+#### Casos de COVID-19 comparados entre AL e o Brasil
 ![COVID-19 cases compared between BR and AL](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_AL.png)
 
-#### COVID-19 cases compared between SP and AL
+#### Casos de COVID-19 comparados entre AL e SP
 ![COVID-19 cases compared between SP and AL](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_AL.png)
 
-#### COVID-19 cases compared between BA and Brazil
+#### Casos de COVID-19 comparados entre BA e o Brasil
 ![COVID-19 cases compared between BR and BA](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_BA.png)
 
-#### COVID-19 cases compared between SP and BA
+#### Casos de COVID-19 comparados entre BA e SP
 ![COVID-19 cases compared between SP and RS](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_BA.png)
 
-#### COVID-19 cases compared between CE and Brazil
+#### Casos de COVID-19 comparados entre CE e o Brasil
 ![COVID-19 cases compared between BR and CE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_CE.png)
 
-#### COVID-19 cases compared between SP and CE
+#### Casos de COVID-19 comparados entre CE e SP
 ![COVID-19 cases compared between SP and CE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_CE.png)
 
-#### COVID-19 cases compared between PE and Brazil
+#### Casos de COVID-19 comparados entre PE e o Brasil
 ![COVID-19 cases compared between BR and PE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_PE.png)
 
-#### COVID-19 cases compared between SP and PE
+#### Casos de COVID-19 comparados entre PE e SP
 ![COVID-19 cases compared between SP and PE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_PE.png)
 
-#### COVID-19 cases compared between MA and Brazil
+#### Casos de COVID-19 comparados entre MA e o Brasil
 ![COVID-19 cases compared between BR and MA](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_MA.png)
 
-#### COVID-19 cases compared between SP and MA
+#### Casos de COVID-19 comparados entre MA e SP
 ![COVID-19 cases compared between SP and MA](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_MA.png)
 
-#### COVID-19 cases compared between PB and Brazil
+#### Casos de COVID-19 comparados entre PB e o Brasil
 ![COVID-19 cases compared between BR and PB](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_PB.png)
 
-#### COVID-19 cases compared between SP and PB
+#### Casos de COVID-19 comparados entre PB e SP
 ![COVID-19 cases compared between SP and PB](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_PB.png)
 
-#### COVID-19 cases compared between PI and Brazil
+#### Casos de COVID-19 comparados entre PI e o Brasil
 ![COVID-19 cases compared between BR and PI](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_PI.png)
 
-#### COVID-19 cases compared between SP and PI
+#### Casos de COVID-19 comparados entre PI e SP
 ![COVID-19 cases compared between SP and PI](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_PI.png)
 
-#### COVID-19 cases compared between RN and Brazil
+#### Casos de COVID-19 comparados entre RN e o Brasil
 ![COVID-19 cases compared between BR and RN](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_RN.png)
 
-#### COVID-19 cases compared between SP and RN
+#### Casos de COVID-19 comparados entre RN e SP
 ![COVID-19 cases compared between SP and RN](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RN.png)
 
-#### COVID-19 cases compared between SE and Brazil
+#### Casos de COVID-19 comparados entre SE e o Brasil
 ![COVID-19 cases compared between BR and SE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_SE.png)
 
-#### COVID-19 cases compared between SP and SE
+#### Casos de COVID-19 comparados entre SE e SP
 ![COVID-19 cases compared between SP and SE](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_SE.png)
 
 
 ### Comparisons in North Region
 
-#### COVID-19 cases compared between AC and Brazil
+#### Casos de COVID-19 comparados entre AC e o Brasil
 ![COVID-19 cases compared between BR and AC](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_AC.png)
 
-#### COVID-19 cases compared between SP and AC
+#### Casos de COVID-19 comparados entre AC e SP
 ![COVID-19 cases compared between SP and AC](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_AC.png)
 
-#### COVID-19 cases compared between AM and Brazil
+#### Casos de COVID-19 comparados entre AM e o Brasil
 ![COVID-19 cases compared between BR and AM](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_AM.png)
 
-#### COVID-19 cases compared between SP and AM
+#### Casos de COVID-19 comparados entre AM e SP
 ![COVID-19 cases compared between SP and AM](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_AM.png)
 
-#### COVID-19 cases compared between AP and Brazil
+#### Casos de COVID-19 comparados entre AP e o Brasil
 ![COVID-19 cases compared between BR and AP](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_AP.png)
 
-#### COVID-19 cases compared between SP and AP
+#### Casos de COVID-19 comparados entre AP e SP
 ![COVID-19 cases compared between SP and AP](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_AP.png)
 
-#### COVID-19 cases compared between PA and Brazil
+#### Casos de COVID-19 comparados entre PA e o Brasil
 ![COVID-19 cases compared between BR and PA](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_PA.png)
 
-#### COVID-19 cases compared between SP and PA
+#### Casos de COVID-19 comparados entre PA e SP
 ![COVID-19 cases compared between SP and PA](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_PA.png)
 
-#### COVID-19 cases compared between RO and Brazil
+#### Casos de COVID-19 comparados entre RO e o Brasil
 ![COVID-19 cases compared between BR and RO](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_RO.png)
 
-#### COVID-19 cases compared between SP and RO
+#### Casos de COVID-19 comparados entre RO e SP
 ![COVID-19 cases compared between SP and RO](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RO.png)
 
-#### COVID-19 cases compared between RR and Brazil
+#### Casos de COVID-19 comparados entre RR e o Brasil
 ![COVID-19 cases compared between BR and RR](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_RR.png)
 
-#### COVID-19 cases compared between SP and RR
+#### Casos de COVID-19 comparados entre RR e SP
 ![COVID-19 cases compared between SP and RR](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RR.png)
 
-#### COVID-19 cases compared between TO and Brazil
+#### Casos de COVID-19 comparados entre TO e o Brasil
 ![COVID-19 cases compared between BR and TO](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_TO.png)
 
-#### COVID-19 cases compared between SP and TO
+#### Casos de COVID-19 comparados entre TO e SP
 ![COVID-19 cases compared between SP and TO](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_TO.png)
-
