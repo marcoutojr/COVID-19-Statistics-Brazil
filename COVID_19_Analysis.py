@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from matplotlib.offsetbox import AnchoredText
+
 sns.set(color_codes=True)
 sns.set_style('darkgrid')
 # sns.set_style('whitegrid')
@@ -162,13 +162,14 @@ plt.ylabel('Número de casos', Fontsize = 18)
 plt.yticks(fontsize = 16)
 plt.xlabel('Número de dias desde o primeiro caso', Fontsize = 18)
 # plt.xlabel('Number of days since the first case', Fontsize = 18)
-plt.xticks(fontsize = 16)
+plt.xticks(np.arange(0, np.max(days_per_state)), fontsize = 16)
 plt.title('Total de casos de COVID-19 por estado brasileiro', FontSize = 20)
 # plt.title('Total COVID-19 cases per state in Brazil', FontSize = 20)
 plt.legend(labels = states, fontsize = 12.5)
 
 plt.show()
 fig1.savefig('Figures\\' + date + '\\Total_COVID19_cases_per_state_in_Brazil.png', dpi = 400)
+
 
 
 ###############################################################################
@@ -237,12 +238,11 @@ for s in range(0, len(states)):
     fig3.set_figwidth(16)
     fig3.set_figheight(10)
        
-    
-    x = np.arange(0, days_per_state[k], 1)
+    x = np.arange(0, new_state.shape[0], 1)
     
     plt.plot(total_state, 'ko-', label = 'Total de casos', linewidth = 1, markersize = 12)
     plt.plot(deaths_state, 'C1X', label = 'Total de óbitos', linewidth = 1, markersize = 14)
-    plt.bar(x, new_state.iloc[np.arange(0, days_per_state[k])], width = .8, color = 'b', label = 'Novos casos')
+    plt.bar(x, new_state.iloc[np.arange(0, new_state.shape[0], 1)], width = .8, color = 'b', label = 'Novos casos')
 
     # plt.plot(total_state, 'ko-', label = 'Total cases', linewidth = 1, markersize = 12)
     # plt.plot(deaths, 'r^-', label = 'Deaths', linewidth = 1, markersize = 12)
@@ -269,17 +269,17 @@ for s in range(0, len(states)):
     plt.yticks(fontsize = 16)
     plt.xlabel('Número de dias desde o primeiro caso', Fontsize = 18)
     # plt.xlabel('Number of days since the first case', Fontsize = 18)
-    plt.xticks(np.arange(0, days_per_state[k]), fontsize = 16)
+    plt.xticks(np.arange(0, new_state.shape[0]), fontsize = 16)
     plt.title('Casos de COVID-19 em ' + int_state, FontSize = 20)
     # plt.title('COVID-19 cases in ' + int_state, FontSize = 20)
     plt.legend(fontsize = 16)
 
-    fig3.savefig('Figures\\' + date + '\\For_each_state\\COVID19_cases_in_' + int_state + '.png', dpi = 400)
+    fig3.savefig('Figures\\' + date + '\\For_each_state_v2\\COVID19_cases_in_' + int_state + '.png', dpi = 400)
 #     plt.show()
     plt.close()
     
    
-
+    
 ###############################################################################
 "Comparing states with Brazil"
 ###############################################################################
@@ -300,15 +300,15 @@ for s in range(0, len(states)):
 
     w = .2 # Shift for the bar plots
     n = len(BR_total.index)
-    x1 = np.arange(0, days_per_state[k], 1)
+    x1 = np.arange(0, new_state.shape[0], 1)
     x2 = np.arange(0, len(BR_total), 1)
 
     plt.plot(total_state, 'ko-', label = 'Total de casos em ' + int_state, linewidth = 1, markersize = 12)
     plt.plot(BR_total, 'go-', label = 'Total de casos no Brasil', linewidth = 1, markersize = 12)
     plt.plot(np.absolute(BR_total - total_state), 'ro-', label = 'Total de casos - Diferença', linewidth = 1, markersize = 12)
-    plt.bar(x1, new_state.iloc[np.arange(0, days_per_state[k])], width = .2, color = 'k', label = 'Novos casos em ' + int_state)
+    plt.bar(x1, new_state.iloc[np.arange(0, new_state.shape[0])], width = .2, color = 'k', label = 'Novos casos em ' + int_state)
     plt.bar(x2 - w, BR_new.iloc[np.arange(0, n)], width = .2, color = 'g', label = 'Novos casos no Brasil')
-    plt.bar(x2 + w, np.absolute(BR_new.iloc[np.arange(0, n)] - new_state.iloc[np.arange(0, days_per_state[k])]), width = .2, 
+    plt.bar(x2 + w, np.absolute(BR_new.iloc[np.arange(0, n)] - new_state.iloc[np.arange(0, new_state.shape[0])]), width = .2, 
             color = 'r', label = 'Novos casos - Diferença')
 
     # plt.plot(total_state, 'ko-', label = 'Total cases in ' + int_state, linewidth = 1, markersize = 12)
@@ -357,16 +357,14 @@ for s in range(0, len(states) - 1):
             total_state1 = total_state1.drop(labels = 'Region')
             new_state1 = new_data.iloc[k, :]
             new_state1 = new_state1.drop(labels = 'Region')
-            n1 = k
         if total_data.index[k] == int_state2:
             total_state2 = total_data.iloc[k, :]
             total_state2 = total_state2.drop(labels = 'Region')
             new_state2 = new_data.iloc[k, :]
             new_state2 = new_state2.drop(labels = 'Region')
-            n2 = k
 
-    x1 = np.arange(0, days_per_state[n1], 1)
-    x2 = np.arange(0, days_per_state[n2], 1)
+    x1 = np.arange(0, new_state1.shape[0], 1)
+    x2 = np.arange(0, new_state2.shape[0], 1)
 
     fig5 = plt.figure(figsize = (16, 10))
 
@@ -374,9 +372,9 @@ for s in range(0, len(states) - 1):
 
     plt.plot(total_state1, 'ko-', label = 'Total de casos em ' + int_state1, linewidth = 1, markersize = 12)
     plt.plot(total_state2, 'bs-', label = 'Total de casos em ' + int_state2, linewidth = 1, markersize = 12)
-    plt.bar(x1 - w, new_state1.iloc[np.arange(0, days_per_state[n1])], width = .4, color = 'k', 
+    plt.bar(x1 - w, new_state1.iloc[np.arange(0, new_state1.shape[0])], width = .4, color = 'k', 
             label = 'Novos casos em ' + int_state1)
-    plt.bar(x2  + w, new_state2.iloc[np.arange(0, days_per_state[n2])], width = .4, color = 'b', 
+    plt.bar(x2  + w, new_state2.iloc[np.arange(0, new_state2.shape[0])], width = .4, color = 'b', 
             label = 'Novos casos em ' + int_state2)
 
     # plt.plot(total_state1, 'ko-', label = 'Total cases in ' + int_state1, linewidth = 1, markersize = 12)
