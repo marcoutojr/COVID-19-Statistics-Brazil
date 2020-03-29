@@ -1,4 +1,4 @@
-# COVID-19 - Dados Estatísticos sobre o Brasil
+# COVID-19 - Dados Estatísticos do Brasil
 
 Dados estatísticos sobre os casos de COVID-19 no Brasil.
 
