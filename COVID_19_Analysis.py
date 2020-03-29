@@ -238,11 +238,18 @@ for s in range(0, len(states)):
     fig3.set_figwidth(16)
     fig3.set_figheight(10)
        
-    x = np.arange(0, new_state.shape[0], 1)
+    
     
     plt.plot(total_state, 'ko-', label = 'Total de casos', linewidth = 1, markersize = 12)
     plt.plot(deaths_state, 'C1X', label = 'Total de óbitos', linewidth = 1, markersize = 14)
-    plt.bar(x, new_state.iloc[np.arange(0, new_state.shape[0], 1)], width = .8, color = 'b', label = 'Novos casos')
+    if  s == 0:
+        x = np.arange(0, days_per_state[s] + 1, 1)
+        plt.bar(x, new_state.iloc[np.arange(0, days_per_state[s] + 1, 1)], width = .8, color = 'b', label = 'Novos casos')
+        plt.xticks(np.arange(0, days_per_state[s] + 1), fontsize = 16)
+    else:
+        x = np.arange(0, days_per_state[s], 1)
+        plt.bar(x, new_state.iloc[np.arange(0, days_per_state[s], 1)], width = .8, color = 'b', label = 'Novos casos')
+        plt.xticks(np.arange(0, days_per_state[s]), fontsize = 16)
 
     # plt.plot(total_state, 'ko-', label = 'Total cases', linewidth = 1, markersize = 12)
     # plt.plot(deaths, 'r^-', label = 'Deaths', linewidth = 1, markersize = 12)
@@ -269,7 +276,10 @@ for s in range(0, len(states)):
     plt.yticks(fontsize = 16)
     plt.xlabel('Número de dias desde o primeiro caso', Fontsize = 18)
     # plt.xlabel('Number of days since the first case', Fontsize = 18)
-    plt.xticks(np.arange(0, new_state.shape[0]), fontsize = 16)
+    # if  s == 0:
+    #     plt.xticks(np.arange(0, days_per_state[s] + 1), fontsize = 16)
+    # else:
+        # plt.xticks(np.arange(0, days_per_state[s]), fontsize = 16)
     plt.title('Casos de COVID-19 em ' + int_state, FontSize = 20)
     # plt.title('COVID-19 cases in ' + int_state, FontSize = 20)
     plt.legend(fontsize = 16)
