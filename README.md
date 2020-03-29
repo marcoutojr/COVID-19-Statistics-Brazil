@@ -28,7 +28,7 @@ No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figu
 
 ### Região Sudeste
 
-### Casos de COVID-19 no Estado do Espírito Santo
+#### Casos de COVID-19 no Estado do Espírito Santo
 ![COVID-19 cases in Espirito Santo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/For_each_state_v2/COVID19_cases_in_ES.png)
 
 #### Casos de COVID-19 comparados entre ES e o Brasil
@@ -55,7 +55,7 @@ No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figu
 #### Casos de COVID-19 comparados entre SP e RJ
 ![COVID-19 cases compared between SP and RJ](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/Compared_with_SP/COVID19_cases_compared_between_SP_and_RJ.png)
 
-### Casos de COVID-19 no Estado de São Paulo
+#### Casos de COVID-19 no Estado de São Paulo
 ![COVID-19 cases in São Paulo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/For_each_state_v2/COVID19_cases_in_SP.png)
 
 #### COVID-19 cases compared between SP and Brazil
