@@ -17,6 +17,12 @@ No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figu
 
 
 ## Casos de COVID-19 no Brasil
+
+#### Total de casos em 28/03/2020: 3930
+#### Novos casos em 28/03/2020: 456
+#### Total de óbitos em 28/03/2020: 114 
+
+
 ![COVID-19 cases in São Paulo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/28_03_2020/COVID19_cases_in_Brazil.png)
 
 
