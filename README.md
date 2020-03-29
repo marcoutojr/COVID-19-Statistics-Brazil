@@ -13,7 +13,7 @@ Pretendo atualizar esse repositório diaramente, sempre que for possível.
 
 ## Última atualização: 28/03/2020
 
-No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figures```. Lá, você encontra também encontrará os plots de detalhe para cada estado desde que comecei este repositório.
+No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figures```. Lá, você também encontrará os plots de detalhe para cada estado desde que comecei este repositório.
 
 
 ## Casos de COVID-19 no Brasil
