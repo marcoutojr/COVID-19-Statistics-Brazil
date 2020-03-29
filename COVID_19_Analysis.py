@@ -126,7 +126,7 @@ for k in range(0, len(states)):
         plt.plot(total_data.iloc[k, range(0, total_data.shape[1] - 1)], '-^', color = color_central, 
                   markersize = 8, linewidth = 1) 
         plt.annotate(total_data.index[k], (days_per_state[k], total_data.iloc[k, days_per_state[k] - 1]), 
-                    textcoords = 'offset points', xytext=(-15, 8), ha='right', fontsize = 12.5, weight = 'bold')
+                    textcoords = 'offset points', xytext=(-15, 0), ha='right', fontsize = 12.5, weight = 'bold')
     
     if total_data['Region'][k] == 'North':
         color_north = (k/30, k/10, k/30)
@@ -178,29 +178,33 @@ fig2, ax2 = plt.subplots()
 fig2.set_figwidth(16)
 fig2.set_figheight(10)
 
-text2 = ''.join((r'Em %s:' % (date_form, ) + '\n' + '\n', r'Total de casos: %.0f' % (BR_total.iloc[-1], ) + '  -  ',
-                    r'Novos casos: %.0f' % (BR_new.iloc[-1], ) +  '  -  ', r'Total de óbitos: %.0f' % (BR_deaths.iloc[-1], )))
-anchored_text2 = AnchoredText(text2, loc = 'upper center', prop = dict(size = 14), frameon = True)
-anchored_text2.patch.set_boxstyle("round,pad=0.,rounding_size=0.2")
-
+x = np.arange(0, len(BR_new), 1)
+y = BR_new.iloc[np.arange(0, len(BR_new), 1)]
+                
 plt.plot(BR_total, 'ko-', label = 'Total de casos', linewidth = 1, markersize = 12)
-plt.plot(BR_deaths, 'rX', label = 'Total de óbitos', linewidth = 1, markersize = 14)
-plt.bar(np.arange(0, len(BR_new), 1), BR_new.iloc[np.arange(0, len(BR_new), 1)], 
-        width = .8, color = 'b', label = 'Novos casos')
+plt.plot(BR_deaths, 'C1X', label = 'Total de óbitos', linewidth = 1, markersize = 14)
+plt.bar(x, y, width = .8, color = 'b', label = 'Novos casos')
 
 # plt.plot(total_state, 'ko-', label = 'Total cases', linewidth = 1, markersize = 12)
 # plt.plot(deaths, 'r^-', label = 'Deaths', linewidth = 1, markersize = 12)
 # plt.bar(np.arange(0, days_per_state[k], 1), new_state.iloc[np.arange(0, days_per_state[k])], 
 #         width = .8, color = 'b', label = 'New cases')
 
-ax2.add_artist(anchored_text2)
+for i in range(0, len(BR_total)):
+    txt1 = np.int(BR_total.iloc[i])
+    ax2.annotate(txt1, (x[i], BR_total.iloc[i]), color = 'k', textcoords = 'offset points', xytext=(0, 10), ha='center', fontsize = 11, weight = 'bold')
+    txt2 = np.int(BR_new.iloc[i])
+    ax2.annotate(txt2, (x[i], BR_new.iloc[i]), color = 'b', textcoords = 'offset points', xytext=(0, 10), ha='center', fontsize = 11, weight = 'bold')
+    txt3 = np.int(BR_deaths.iloc[i])
+    ax2.annotate(txt3, (x[i], BR_deaths[i]), color = 'C1', textcoords = 'offset points', xytext=(0, -18), ha='center', fontsize = 11, weight = 'bold')
+
 plt.yscale('log')
 plt.ylabel('Número de casos', Fontsize = 18)
 # plt.ylabel('Number of cases', Fontsize = 18)
 plt.yticks(fontsize = 16)
 plt.xlabel('Número de dias desde o primeiro caso', Fontsize = 18)
 # plt.xlabel('Number of days since the first case', Fontsize = 18)
-plt.xticks(np.arange(0, len(BR_new) - 1, 1), fontsize = 16)
+plt.xticks(np.arange(0, len(BR_new), 1), fontsize = 16)
 plt.title('Casos de COVID-19 no Brasil', FontSize = 20)
 # plt.title('COVID-19 cases in ' + int_state, FontSize = 20)
 plt.legend(fontsize = 16)
@@ -208,6 +212,7 @@ plt.legend(fontsize = 16)
 fig2.savefig('Figures\\' + date + '\\COVID19_cases_in_Brazil.png', dpi = 400)
 plt.show()
 # plt.close()
+
 
 
 ###############################################################################
@@ -232,22 +237,32 @@ for s in range(0, len(states)):
     fig3.set_figwidth(16)
     fig3.set_figheight(10)
        
-    text3 = ''.join((r'Em %s:' % (date_form, ) + '\n' + '\n', r'Total de casos: %.0f' % (total_state.iloc[days_per_state[s] - 1], ) +  '  -  ',
-                    r'Novos casos: %.0f' % (new_state.iloc[days_per_state[s] - 1], ) +  '  -  ', r'Total de óbitos: %.0f' % (deaths_state.iloc[days_per_state[s] - 1], )))
-    anchored_text3 = AnchoredText(text3, loc = 'upper center', prop = dict(size = 14), frameon = True)
-    anchored_text3.patch.set_boxstyle("round,pad=0.,rounding_size=0.2")
-
+    
+    x = np.arange(0, days_per_state[k], 1)
+    
     plt.plot(total_state, 'ko-', label = 'Total de casos', linewidth = 1, markersize = 12)
-    plt.plot(deaths_state, 'rs', label = 'Total de óbitos', linewidth = 1, markersize = 12)
-    plt.bar(np.arange(0, days_per_state[k], 1), new_state.iloc[np.arange(0, days_per_state[k])], 
-            width = .8, color = 'b', label = 'Novos casos')
+    plt.plot(deaths_state, 'C1X', label = 'Total de óbitos', linewidth = 1, markersize = 14)
+    plt.bar(x, new_state.iloc[np.arange(0, days_per_state[k])], width = .8, color = 'b', label = 'Novos casos')
 
     # plt.plot(total_state, 'ko-', label = 'Total cases', linewidth = 1, markersize = 12)
     # plt.plot(deaths, 'r^-', label = 'Deaths', linewidth = 1, markersize = 12)
     # plt.bar(np.arange(0, days_per_state[k], 1), new_state.iloc[np.arange(0, days_per_state[k])], 
     #         width = .8, color = 'b', label = 'New cases')
     
-    ax3.add_artist(anchored_text3)
+    for i in range(0, len(x)):
+        y_total = total_state
+        y_total.fillna(0, inplace = True)
+        txt1 = np.int(y_total.iloc[i])
+        ax3.annotate(txt1, (x[i], total_state.iloc[i]), color = 'k', textcoords = 'offset points', xytext=(0, 10), ha='center', fontsize = 11, weight = 'bold')
+        y_new = new_state
+        y_new.fillna(0, inplace = True)
+        txt2 = np.int(new_state.iloc[i])
+        ax3.annotate(txt2, (x[i], new_state.iloc[i]), color = 'b', textcoords = 'offset points', xytext=(0, 10), ha='center', fontsize = 11, weight = 'bold')
+        y_deaths = deaths_state
+        y_deaths.fillna(0, inplace = True)
+        txt3 = np.int(deaths_state.iloc[i])
+        ax3.annotate(txt3, (x[i], deaths_state[i]), color = 'C1', textcoords = 'offset points', xytext=(0, -18), ha='center', fontsize = 11, weight = 'bold')
+    
     plt.yscale('log')
     plt.ylabel('Número de casos', Fontsize = 18)
     # plt.ylabel('Number of cases', Fontsize = 18)
@@ -324,16 +339,18 @@ for s in range(0, len(states)):
 ###############################################################################
 "Comparing states with SP"
 ###############################################################################
-for s in range(0, len(states)):
-
+for s in range(0, len(states) - 1):
+    
     int_state1 = 'SP' # Choose the state1 here
 #     int_state2 = 'RJ' # Choose the state2 here
     int_state2 = states[s]
     
     if int_state2 == 'SP':
         s += 1
-        int_state2 = states[s]
-
+        if s == len(states):
+            break
+        else: int_state2 = states[s]
+        
     for k in range(0, len(total_data.index)):
         if total_data.index[k] == int_state1:
             total_state1 = total_data.iloc[k, :]
