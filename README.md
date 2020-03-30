@@ -63,7 +63,7 @@ No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figu
 #### Casos de COVID-19 no Estado de São Paulo
 ![COVID-19 cases in São Paulo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/29_03_2020/For_each_state/COVID19_cases_in_SP.png)
 
-#### COVID-19 cases compared between SP and Brazil
+#### Casos de COVID-19 comparados entre SP e o Brasil
 ![COVID-19 cases compared between BR and SP](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/29_03_2020/Compared_with_BR/COVID19_cases_compared_between_BR_and_SP.png)
 
 
