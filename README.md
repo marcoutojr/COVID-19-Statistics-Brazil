@@ -4,7 +4,7 @@ Dados estatísticos sobre os casos de COVID-19 no Brasil.
 
 Este repositório é uma compilação dos dados de COVID-19 do Ministério da Saúde e das Secretarias de Saúde estaduais, retirados de https://labs.wesleycota.com/sarscov2/br/. O banco de dados pode ser encontrado na pasta ```Data``` em formato CSV. Comecei a compilação destes dados em 23/03/2020, mas a série temporal nacional inicia em 22/02/2020, quando houve a primeira confirmação de caso de COVID-19 na cidade de São Paulo, SP, o epicentro da pandemia no Brasil. 
 
-Se você tem interesse em programação em Python e tem interesse em ajudar este projeto, por favor, dê uma olhada no arquivo ```COVID_19_Analysis.py```. Qualquer sugestão é muito bem vinda. Se preferir, pode me enviar um e-mail também: marco.couto@usp.br.
+Se você tem interesse em programação em Python e tem interesse em ajudar neste projeto, por favor, dê uma olhada no arquivo ```COVID_19_Analysis.py```. Qualquer sugestão é muito bem vinda. Se preferir, pode me enviar um e-mail também: marco.couto@usp.br.
 
 O cenário geral até 29/03/2020 é apresentado abaixo. Os dados foram desagregados para o detalhe em todos os estados, apresentando o total de casos, novos casos e número de óbitos devido ao COVID-19. Há também comparações entre as situações dos estados com SP e dos estados com o Brasil. Todas as séries temporais de cada estado se iniciam no dia da confirmação do primeiro caso de COVID-19 neste estado (dia "0").
 
