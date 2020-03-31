@@ -27,8 +27,8 @@ plt.close('all')
 ###############################################################################
 "Takes the names of Brazilian states ant the counting days per state"
 ###############################################################################
-file = 'Data\Data_28032020.csv' # Put the update CSV file here
-date = '28_03_2020' # Update the data as well
+file = 'Data\Data_30032020.csv' # Put the update CSV file here
+date = '30_03_2020' # Update the data as well
 date_form = date[0]+date[1]+'-'+date[3]+date[4]+"-"+date[6]+date[7]+date[8]+date[9]
 raw_data = pd.read_csv(file)
 
@@ -113,7 +113,7 @@ BR_deaths = pd.Series(BR_deaths)
 
 
 
-###############################################################################
+##############################################################################
 "Plotting the total number per state"
 ###############################################################################
 fig1, ax1 = plt.subplots()
@@ -126,35 +126,35 @@ for k in range(0, len(states)):
         plt.plot(total_data.iloc[k, range(0, total_data.shape[1] - 1)], '-^', color = color_central, 
                   markersize = 8, linewidth = 1) 
         plt.annotate(total_data.index[k], (days_per_state[k], total_data.iloc[k, days_per_state[k] - 1]), 
-                    textcoords = 'offset points', xytext=(-15, 0), ha='right', fontsize = 12.5, weight = 'bold')
+                    textcoords = 'offset points', xytext=(-10, 0), ha='right', fontsize = 12.5, weight = 'bold')
     
     if total_data['Region'][k] == 'North':
         color_north = (k/30, k/10, k/30)
         plt.plot(total_data.iloc[k, range(0, total_data.shape[1] - 1)], '-P', color = color_north, 
                   markersize = 10, linewidth = 1)
         plt.annotate(total_data.index[k], (days_per_state[k], total_data.iloc[k, days_per_state[k] - 1]), 
-                    textcoords = 'offset points', xytext=(-15, 0), ha='right', fontsize = 12.5, weight = 'bold')
+                    textcoords = 'offset points', xytext=(-10, 0), ha='right', fontsize = 12.5, weight = 'bold')
         
     if total_data['Region'][k] == 'Northeast':
         color_northeast = (k/20, k/20, k/50)
         plt.plot(total_data.iloc[k, range(0, total_data.shape[1] - 1)], '-x', color = color_northeast, 
                   markersize = 8, linewidth = 1)
         plt.annotate(total_data.index[k], (days_per_state[k], total_data.iloc[k, days_per_state[k] - 1]), 
-                    textcoords = 'offset points', xytext=(-15, 0), ha='right', fontsize = 12.5, weight = 'bold')
+                    textcoords = 'offset points', xytext=(-10, 0), ha='right', fontsize = 12.5, weight = 'bold')
         
     if total_data['Region'][k] == 'South':
         color_south = (k/35, k/35, k/22)
         plt.plot(total_data.iloc[k, range(0, total_data.shape[1] - 1)], '-s', color = color_south, 
                   markersize = 6, linewidth = 1)
         plt.annotate(total_data.index[k], (days_per_state[k], total_data.iloc[k, days_per_state[k] - 1]), 
-                    textcoords = 'offset points', xytext=(-15, 0), ha='right', fontsize = 12.5, weight = 'bold')
+                    textcoords = 'offset points', xytext=(-10, 0), ha='right', fontsize = 12.5, weight = 'bold')
         
     if total_data['Region'][k] == 'Southeast':
         color_southeast = (k/28, k/60, k/60)
         plt.plot(total_data.iloc[k, range(0, total_data.shape[1] - 1)], '-o', color = color_southeast,
                   markersize = 6, linewidth = 1)
         plt.annotate(total_data.index[k], (days_per_state[k], total_data.iloc[k, days_per_state[k] - 1]), 
-                    textcoords = 'offset points', xytext=(-15, 0), ha='right', fontsize = 12.5, weight = 'bold')
+                    textcoords = 'offset points', xytext=(-10, 0), ha='right', fontsize = 12.5, weight = 'bold')
 
 plt.yscale('log')
 plt.ylabel('Número de casos', Fontsize = 18)
@@ -284,7 +284,7 @@ for s in range(0, len(states)):
     # plt.title('COVID-19 cases in ' + int_state, FontSize = 20)
     plt.legend(fontsize = 16)
 
-    fig3.savefig('Figures\\' + date + '\\For_each_state_v2\\COVID19_cases_in_' + int_state + '.png', dpi = 400)
+    fig3.savefig('Figures\\' + date + '\\For_each_state\\COVID19_cases_in_' + int_state + '.png', dpi = 400)
 #     plt.show()
     plt.close()
     
