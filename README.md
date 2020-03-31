@@ -6,21 +6,21 @@ Este repositório é uma compilação dos dados de COVID-19 do Ministério da Sa
 
 Se você tem interesse em programação em Python e tem interesse em ajudar neste projeto, por favor, dê uma olhada no arquivo ```COVID_19_Analysis.py```. Qualquer sugestão é muito bem vinda. Se preferir, pode me enviar um e-mail também: marco.couto@usp.br.
 
-O cenário geral até 29/03/2020 é apresentado abaixo. Os dados foram desagregados para o detalhe em todos os estados, apresentando o total de casos, novos casos e número de óbitos devido ao COVID-19. Há também comparações entre as situações dos estados com SP e dos estados com o Brasil. Todas as séries temporais de cada estado se iniciam no dia da confirmação do primeiro caso de COVID-19 neste estado (dia "0").
+O cenário geral até 30/03/2020 é apresentado abaixo. Os dados foram desagregados para o detalhe em todos os estados, apresentando o total de casos, novos casos e número de óbitos devido ao COVID-19. Há também comparações entre as situações dos estados com SP e dos estados com o Brasil. Todas as séries temporais de cada estado se iniciam no dia da confirmação do primeiro caso de COVID-19 neste estado (dia "0").
 
 Pretendo atualizar esse repositório diaramente, sempre que for possível.
 
 
-## Última atualização: 29/03/2020
+## Última atualização: 30/03/2020
 
 No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figures```. Lá, você também encontrará os plots de detalhe para cada estado desde que comecei este repositório.
 
 
 ## Casos de COVID-19 no Brasil
 
-#### Total de casos em 29/03/2020: 4661
-#### Novos casos em 29/03/2020: 338
-#### Total de óbitos em 29/03/2020: 159 
+#### Total de casos em 30/03/2020: 4661
+#### Novos casos em 30/03/2020: 338
+#### Total de óbitos em 30/03/2020: 159 
 
 ![COVID-19 cases in São Paulo State](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/30_03_2020/COVID19_cases_in_Brazil.png)
 
