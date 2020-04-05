@@ -25,7 +25,7 @@ No entanto, é possível encontrar os plots dos dias anteriores na pasta ```Figu
 ## Casos de COVID-19 no Brasil
 ![COVID-19 cases in Brazil](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/04_04_2020/COVID19_cases_in_Brazil.png)
 
-## Total de cados de COVID-19 por estado no Brasil
+## Total de casos de COVID-19 por estado no Brasil
 ![Total COVID-19 cases per state in Brazil](https://github.com/marcoutojr/COVID-19-Statistics-Brazil/blob/master/Figures/04_04_2020/Total_COVID19_cases_per_state_in_Brazil.png)
 
 
